@@ -1,0 +1,218 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Edicção especial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+      <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="close-btn" onclick="closemenu"></i>
+            <a href="dashboard.php"><img src="imagens/logo.png" class="logo"></a>
+        
+            <form class="forms" action="busca.php" method="POST">
+            
+              <input type="search" id="pesquisar" name="pesquisar" placeholder="Pesquisar" list="historico">
+              <!-- <img src="./imagens/busca.png" class="btn"> -->
+            </form>
+        </div><!--search-box-->
+        <div class="menu-bar">
+          <ul>
+            <li><a href="CARRINHO DE COMPRAS/carrinho.php"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+            <li><a href="ADM/admin">Admin</a></li>
+          </ul>  
+        </div><!--menu-bar-->
+      </div><!--top-nav-bar-->
+     
+    <section class="new-products">
+        <div class="container">
+         <div class="row">
+              <div class="col-md-3">
+                  <div class="product-top">
+                      <a href="./edicaoEspecial/edicaoView.php?id=98"><img src="imagens/Modern Wafare 2(limited) Edição Especial.png"></a>
+                      <div class="overlay-right">
+                      </div>
+                  </div><!--product-top-->
+                  <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                      <h3>Modern Wafare 2(limited) </h3>
+                      <h5>R$50,00</h5>
+                  </div><!--product-bottom-->
+              </div><!--col-md-3-->
+         
+              <div class="col-md-3">
+                <div class="product-top">
+                  <a href="./edicaoEspecial/edicaoView.php?id=99"><img src="imagens/Ovoide Asa Noturna(limited) Edição Especial.png"></a>
+                    <div class="overlay-right"></div>
+                </div><!--product-top-->
+                <div class="product-bottom text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                    <h3>Ovoide Asa Noturna(limited)</h3>
+                    <h5>R$9,00</h5>
+                </div><!--product-bottom-->
+            </div><!--col-md-3-->
+             
+            <div class="col-md-3">
+              <div class="product-top">
+                  <a href="./edicaoEspecial/edicaoView.php?id=100"><img src="imagens/Ovoide Dark Side Edição Especial.png"></a>
+                  <div class="overlay-right"></div>
+              </div><!--product-top-->
+              <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                  <h3>  Ovoide Dark Side</h3>
+                  <h5>R$8,00</h5>
+              </div><!--product-bottom-->
+            </div>   <!--col-md-3--> 
+               
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="./edicaoEspecial/edicaoView.php?id=101"><img src="imagens/Action Figure Thor.png"></a>
+                  <div class="overlay-right"></div>
+              </div><!--product-top-->
+              <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                  <h3>Action Figure Thor</h3>
+                  <h5>R$20,00</h5>
+              </div><!--product-bottom-->
+            </div> <!--col-md-3--> 
+
+             <div class="col-md-3">
+                <div class="product-top">
+                  <a href="./edicaoEspecial/edicaoView.php?id=102"><img src="./imagens/Action Figure The Witcher(limited).png"></a>
+                    <div class="overlay-right"></div>
+                </div><!--product-top-->
+                <div class="product-bottom text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                    <h3>Action Figure The Witcher(limited)</h3>
+                    <h5>R$83,00</h5>
+                </div><!--product-bottom-->
+            </div><!--col-md-3-->
+
+         
+              <div class="col-md-3">
+                <div class="product-top">
+                  <a href="./edicaoEspecial/edicaoView.php?id=103"><img src="./imagens/Action Figure Crash(limited).png"></a>
+                    <div class="overlay-right">
+                    
+                    </div>
+                </div><!--product-top-->
+                <div class="product-bottom text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                    <h3>Action Figure Crash(limited)</h3>
+                    <h5>R$120,00</h5>
+                </div><!--product-bottom-->
+              </div><!--col-md-3-->
+             
+           <div class="col-md-3">
+              <div class="product-top">
+                <a href="./edicaoEspecial/edicaoView.php?id=104"><img src="imagens/Far Cry 4 Edição Especial.png"></a>
+                  <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Compra rápida">
+                  </div>
+              </div><!--product-top-->
+              <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                  <h3>Far Cry 4</h3>
+                  <h5>R$70,00</h5>
+              </div><!--product-bottom-->
+            </div>    <!--col-md-3-->
+
+         <div class="col-md-3">
+            <div class="product-top">
+              <a href="./edicaoEspecial/edicaoView.php?id=105"><img src="imagens/Call Of Duty Black Ops 3 Ps3.png"></a>
+                <div class="overlay-right">
+              
+                </div>
+            </div><!--product-top-->
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+                <h3>Call Of dutty 3-Ps3(limited)</h3>
+                <h5>R$70,00</h5>
+            </div>   <!--product-bottom-->
+         </div>       <!--col-md-3-->  
+     </section><!--new-products-->
+     <section class="footer">
+      <div class="container text-center">
+          <div class="row">
+          <div class="col-md-3">
+            <h1>Links Úteis</h1>
+            <a href="PoliticaPriva.html"><p>Política de privacidade</p></a>
+           <a href="termosUso.html"><p>Termos de uso</p></a>
+            <a href="termosDev.html"><p>Termos de devolução</p></a>
+            <a href="quemSomos.html"><p>Quem Somos</p></a>
+        </div>
+         <div class="col-md-3">
+            <h1>Companhia </h1>
+            <a href="contate.html"><p>Contate-nos</p></a>
+                          <a href="carreira.html"><p>Carreira</p></a>
+                          <a href="afiliado.html"><p>Filiação</p></a>
+        </div>
+      <div class="col-md-3">
+          <h1>Redes Sociais </h1>
+          <p style="font-size: 17px;"><a href=""><img src="./imagens/iconfinder fa.png"></a>Facebook</p>
+          <p style="font-size: 17px;"><a href="https://api.whatsapp.com/send?phone=55551999374464&text=Entre%20em%20contato"><img src="./imagens/whatssap.png"></a>Whatssap</p>
+          <p style="font-size: 17px;"><a href="https://www.instagram.com/8bits_company/?hl=pt-br"><img src="./imagens/iconfinder.png"></a>Instagram</p>
+      </div>
+      <div class="col-md-3 footer-image">
+          <h1>Download App </h1>
+          <img src="imagens/">
+      </div>
+      </div>
+      </div>
+      </section>
+        <script>
+            function openmenu()
+            {
+                document.getElementById("side-menu").style.display="block";
+                document.getElementById("menu-btn").style.display="none";
+                document.getElementById("close-btn").style.display="block";
+            }
+            function closemenu()
+            {
+                document.getElementById("side-menu").style.display="none";
+                document.getElementById("menu-btn").style.display="block";
+                document.getElementById("close-btn").style.display="none";
+            }
+         
+         </script>
+        </body>
+</html>
+ 

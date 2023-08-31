@@ -1,0 +1,70 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+background-image: url("../IMG/fundo.jpg");
+}
+a{
+color:orange;   
+display: block;
+	height: 55px;
+	width: 400px;
+	margin: 50px auto 0px auto;
+	text-align: center;
+}
+h1{ 
+	font-family: cooper black; 
+	color: white;
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 30px auto 0px auto;
+	text-align: center;
+}
+input[type=submit]{
+	background-color: orangered;
+	border:none; 
+}
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 2px solid black;
+	font-size: 16pt;
+	font-color:black;
+	padding: 10px 20px;
+}
+div#corpo-form{
+	border-radius:30px;  
+    height: 380px;
+	width: 420px;
+	margin:10px auto 0px auto;
+	
+}
+img{
+	border-radius:225px;
+	height: 225px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 24em;
+	border-color:black;
+}
+div#msg-sucesso{
+    width: 400px;
+   margin: 54px auto;
+   padding: 10px;
+   background-color: rgba(50,205,50, .3);
+   border: 1px solid rgba(34,139,34);
+}
+div.msg-erro{
+    width: 400px;
+   margin: 10px auto;
+   padding: 10px;
+   background-color: rgba(250, 128, 114,.3);
+   border: 1px solid rgba(165, 42, 42);
+
+}

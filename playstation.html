@@ -1,0 +1,397 @@
+<html>
+  <head>
+    <title>Playstation</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="top-nav-bar">
+      <div class="search-box">
+        <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+        <i class="fa fa-times" id="close-btn" onclick="closemenu"></i>
+        <a href="dashboard.php"><img src="imagens/logo.png" class="logo" /></a>
+
+        <form class="forms" action="busca.php" method="POST">
+          <input
+            type="search"
+            id="pesquisar"
+            name="pesquisar"
+            placeholder="Pesquisar"
+            list="historico"
+          />
+          <!-- <img src="./imagens/busca.png" class="btn"> -->
+        </form>
+      </div>
+      <!--search-box-->
+      <div class="menu-bar">
+        <ul>
+          <li>
+            <a href="CARRINHO DE COMPRAS/carrinho.php"
+              ><i class="fa fa-shopping-basket"></i>Cart</a
+            >
+          </li>
+          <li><a href="ADM/admin">Admin</a></li>
+        </ul>
+      </div>
+      <!--menu-bar-->
+    </div>
+    <!--top-nav-bar-->
+
+    <section class="new-products" style="background-color: white">
+      <div class="container">
+        <div class="title-box">
+          <h2>Playstation</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=1"
+                ><img src="imagens/Bomba Patch Ps2.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Bomba patch(usado)</h3>
+              <h5>R$249,90</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=2"
+                ><img src="imagens/GTA San Andreas(usado) Ps2.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>GTA San Andreas(usado)</h3>
+              <h5>R$200,00</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=3"
+                ><img src="imagens/Bully Ps2.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Bully(usado)</h3>
+              <h5>R$100,99</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=4"
+                ><img src="imagens/Gran Turismo 4 Ps2.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Gran Turismo 4</h3>
+              <h5>R$95,60</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=5"
+                ><img src="imagens/GTA V(usado) Ps3.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>GTA V(usado)</h3>
+              <h5>R$150,50</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=6"
+                ><img src="imagens/Call Of Duty Black Ops 2 Ps3.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Call Of Dutty Black Ops II(usado)</h3>
+              <h5>R$200,90</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=7"
+                ><img src="imagens/Modern Wafare 2(usado) Ps3.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Modern Wafare 2(usado)</h3>
+              <h5>R$145,00</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=8"
+                ><img src="imagens/Lego Marvel Super Hero.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Lego Marvel Super Hero</h3>
+              <h5>R$89,90</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=9"
+                ><img src="imagens/Red Dead Redemption II Ps4.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Red Dead Redemption II</h3>
+              <h5>R$145,90</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=10"
+                ><img src="imagens/Destiny 2 Ps4.jpg"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Destiny 2</h3>
+              <h5>R$50,00</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=11"
+                ><img src="imagens/Ghost of Tsushima Pa4.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Ghost of Tsushima</h3>
+              <h5>R$289,90</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=12"
+                ><img src="imagens/Crash Ps2.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Crash</h3>
+              <h5>R$200,90</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=13"
+                ><img src="imagens/Battlefield Ps4.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Battlefield</h3>
+              <h5>R$289,90</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=14"
+                ><img src="imagens/Mortal Kombat 11 Ps4.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Mortal Kombat 11</h3>
+              <h5>R$200,00</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=15"
+                ><img src="imagens/Mortal Kombat Shaolin Monks Ps2.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Mortal Kombat Shaolin Monks</h3>
+              <h5>R$289,90</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./play/playView.php?id=16"
+                ><img src="imagens/Naruto Storm 3 Ps3.png"
+              /></a>
+              <div class="overlay-right"></div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <h3>Naruto Storm 3</h3>
+              <h5>R$55,90</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------Footer---------------->
+    <section class="footer">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-3">
+            <h1>Links Úteis</h1>
+            <a href="PoliticaPriva.html" target="_blank"
+              ><p>Política de privacidade e segurança</p></a
+            >
+            <a href="termosUso.html" target="_blank"><p>Termos de uso</p></a>
+            <a href="termosDev.html" target="_blank"
+              ><p>Termos de devolução</p></a
+            >
+            <a href="quemSomos.html" target="_blank"><p>Quem Somos</p></a>
+          </div>
+          <div class="col-md-3">
+            <h1>Companhia</h1>
+            <a href="contate.html" target="_blank"><p>Contate-nos</p></a>
+            <a href="carreira.html" target="_blank"><p>Carreira</p></a>
+            <a href="afiliado.html" target="_blank"><p>Filiação</p></a>
+          </div>
+          <div class="col-md-3">
+            <h1>Redes Sociais</h1>
+            <p style="font-size: 17px">
+              <a href=""><img src="./imagens/iconfinder fa.png" /></a>Facebook
+            </p>
+            <p style="font-size: 17px">
+              <a
+                href="https://api.whatsapp.com/send?phone=55551999374464&text=Entre%20em%20contato"
+                ><img src="./imagens/whatssap.png" /></a
+              >Whatssap
+            </p>
+            <p style="font-size: 17px">
+              <a href="https://www.instagram.com/8bits_company/?hl=pt-br"
+                ><img src="./imagens/iconfinder.png" /></a
+              >Instagram
+            </p>
+          </div>
+          <div class="col-md-3 footer-image">
+            <h1>Download App</h1>
+            <img src="imagens/" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      function openmenu() {
+        document.getElementById("side-menu").style.display = "block";
+        document.getElementById("menu-btn").style.display = "none";
+        document.getElementById("close-btn").style.display = "block";
+      }
+      function closemenu() {
+        document.getElementById("side-menu").style.display = "none";
+        document.getElementById("menu-btn").style.display = "block";
+        document.getElementById("close-btn").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

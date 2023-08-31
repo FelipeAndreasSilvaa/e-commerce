@@ -1,0 +1,291 @@
+<html>
+<head>
+    <title>Clássicos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+    <div class="top-nav-bar">
+      <div class="search-box">
+          <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+          <i class="fa fa-times" id="close-btn" onclick="closemenu"></i>
+          <a href="dashboard.php"><img src="imagens/logo.png" class="logo"></a>
+          <form class="forms" action="busca.php" method="POST">
+            <input  type="search" id="pesquisar" name="pesquisar" placeholder="Pesquisar" list="historico">
+            <!-- <img  src="./imagens/busca.png" class="btn"> -->
+          </form>
+      </div><!--search-box--->
+      <div class="menu-bar">
+        <ul>
+          <li><a href="CARRINHO DE COMPRAS/carrinho.php"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+          <li><a href="ADM/admin">Admin</a></li>
+        </ul>  
+      </div><!--menu-bar-->
+    </div><!--nav-bar-->
+     
+      <section class="new-products">
+        <div class="container">
+          <div class="title-box">
+            <h2>Atari</h2>   
+          </div><!--title-->
+          <div class="row">
+          <div class="col-md-3">
+            <div class="product-top">
+                <a href="./classicos/classicosView.php?id=54"><img src="imagens/secret quest.png"></a>
+                <div class="overlay-right"></div>
+            </div><!--product-top-->
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+                <h3>Secret Quest</h3>
+                <h5>R$80,90</h5>
+            </div><!--product-bottom-->
+          </div><!--col-md-3-->
+          
+          <div class="col-md-3">
+            <div class="product-top">
+                <a href="./classicos/classicosView.php?id=55"><img src="imagens/pitfaal.png"></a>
+                <div class="overlay-right">
+                </div>
+            </div><!--prouct-top-->
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+                <h3>PitFall</h3>
+                <h5>R$74,90</h5>
+            </div><!--product-bottom-->
+          </div><!--col-md-3-->        
+          
+          
+          <div class="col-md-3">
+                <div class="product-top">
+                    <a href="./classicos/classicosView.php?id=56"><img src="imagens/tempest.png"></a>
+                    <div class="overlay-right"></div>
+                </div><!--prouct-top-->
+                <div class="product-bottom text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                    <h3>Tempest</h3>
+                    <h5>R$68,90</h5>
+                </div><!--product-bottom-->
+              </div>   <!--col-md-3-->     
+              
+              <div class="col-md-3">
+                    <div class="product-top">
+                    <a href="./classicos/classicosView.php?id=57"><img src="imagens/gravital.png"></a>
+                        <div class="overlay-right"></div>
+                    </div><!--prouct-top-->
+                    <div class="product-bottom text-center">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                        <h3>Gravitar</h3>
+                        <h5>R$60,50</h5>
+                    </div><!--product-bottom-->
+                  </div>    <!--col-md-3-->       
+      </section><!--new-products-->
+
+    <section class="new-products">
+        <div class="container">
+         <div class="row">
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./classicos/classicosView.php?id=58"><img src="imagens/pac man.png"></a>
+                <div class="overlay-right">
+                </div>
+            </div><!--product-top-->
+              <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                  <h3>Pac Man </h3>
+                  <h5>R$80,00</h5>
+              </div><!--product-bottom-->
+          </div><!--col-md-3-->
+         
+          <div class="col-md-3">
+            <div class="product-top">
+              <a href="./classicos/classicosView.php?id=64"><img src="imagens/pong.png"></a>
+                <div class="overlay-right">
+                </div>
+            </div><!--product-top-->
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+                <h3>Pong</h3>
+                <h5>R$85,00</h5>
+            </div><!--product-bottom-->
+         </div><!--col-md-3-->
+             
+         <div class="col-md-3">
+          <div class="product-top">
+            <a href="./classicos/classicosView.php?id=61"><img src="imagens/space invaders.png"></a>
+              <div class="overlay-right"> </div>
+          </div><!--product-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Space Invadrs</h3>
+              <h5>R$80,00</h5>
+          </div><!--product-bottom-->
+         </div>   <!--col-md-3--> 
+               
+         <div class="col-md-3">
+            <div class="product-top">
+               <a href="./classicos/classicosView.php?id=65"><img src="imagens/river raid.png"></a>
+                <div class="overlay-right">
+                </div>
+            </div><!--product-top-->
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+                <h3>River Raid</h3>
+                <h5>R$65,90</h5>
+            </div><!--product-bottom-->
+         </div>   <!--col-md-3--> 
+
+         <div class="row">
+            <div class="col-md-3">
+              <div class="product-top">
+                  <a href="./classicos/classicosView.php?id=63"><img src="imagens/galaxyan.png"></a>
+                  <div class="overlay-right">
+                  </div>
+              </div><!--product-top-->
+              <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                  <h3>galaxian </h3>
+                  <h5>R$80,00</h5>
+              </div><!--product-bottom-->
+            </div>  <!--col-md-3--> 
+            
+            <div class="col-md-3">
+              <div class="product-top">
+                  <a href="./classicos/classicosView.php?id=59"><img src="imagens/donk kong.png"></a>
+                  <div class="overlay-right">
+                  </div>
+              </div><!--product-top-->
+              <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                  <h3>Donk kong</h3>
+                  <h5>R$85,00</h5>
+              </div><!--product-bottom-->
+            </div><!--col-md-3--> 
+                
+            <div class="col-md-3">
+              <div class="product-top">
+                  <a href="./classicos/classicosView.php?id=60"><img src="imagens/desert falcon.png"></a>
+                  <div class="overlay-right">
+                  </div>
+              </div><!--product-top-->
+              <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                  <h3>Desert Falcon</h3>
+                  <h5>R$75,00</h5>
+              </div><!--product-bottom-->
+            </div> <!--col-md-3-->    
+                  
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="./classicos/classicosView.php?id=62"><img src="imagens/sim city.png"></a>
+                  <div class="overlay-right">
+                  </div>
+              </div><!--product-top-->
+              <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                  <h3>SimCity</h3>
+                  <h5>R$100,90</h5>
+            </div><!--product-bottom-->
+          </div>   <!--row-->
+     </section><!--new-products-->
+<!-------------------Footer---------------->
+<section class="footer">
+  <div class="container text-center">
+      <div class="row">
+      <div class="col-md-3">
+      <h1>Links Úteis</h1>
+      <a href="PoliticaPriva.html" target="_blank"><p>Política de privacidade e segurança</p></a>
+     <a href="termosUso.html" target="_blank"><p>Termos de uso</p></a>
+      <a href="termosDev.html" target="_blank"><p>Termos de devolução</p></a>
+      <a href="quemSomos.html" target="_blank"><p>Quem Somos</p></a>
+  </div>
+   <div class="col-md-3">
+      <h1>Companhia </h1>
+     <a href="contate.html" target="_blank"><p>Contate-nos</p></a>
+     <a href="carreira.html" target="_blank"><p>Carreira</p></a>
+      <a href="afiliado.html" target="_blank"><p>Filiação</p></a>
+  </div>
+  <div class="col-md-3">
+      <h1>Redes Sociais </h1>
+     <p style="font-size: 17px;"><a href=""><img src="./imagens/iconfinder fa.png"></a>Facebook</p>
+     <p style="font-size: 17px;"><a href="https://api.whatsapp.com/send?phone=55551999374464&text=Entre%20em%20contato"><img src="./imagens/whatssap.png"></a>Whatssap</p>
+     <p style="font-size: 17px;"><a href="https://www.instagram.com/8bits_company/?hl=pt-br"><img src="./imagens/iconfinder.png"></a>Instagram</p>
+  </div>
+  <div class="col-md-3 footer-image">
+      <h1>Download App </h1>
+      <img src="imagens/">
+  </div>
+  </div>
+  </div>
+  </section>
+      
+   <script type="text/javascript">
+          function openmenu()
+          {
+              document.getElementById("side-menu").style.display="block";
+              document.getElementById("menu-btn").style.display="none";
+              document.getElementById("close-btn").style.display="block";
+          }
+          function closemenu()
+          {
+              document.getElementById("side-menu").style.display="none";
+              document.getElementById("menu-btn").style.display="block";
+              document.getElementById("close-btn").style.display="none";
+          }
+       
+  </script>
+
+    </body>
+    </html>

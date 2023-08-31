@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NintendoSwitch</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+</head>
+<body>
+  <div class="top-nav-bar">
+    <div class="search-box">
+        <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+        <i class="fa fa-times" id="close-btn" onclick="closemenu"></i>
+        <a href="dashboard.php"><img src="imagens/logo.png" class="logo"></a>
+    
+        <form class="forms" action="busca.php" method="POST">
+        
+          <input type="search" id="pesquisar" name="pesquisar" placeholder="Pesquisar" list="historico">
+          <!-- <img src="./imagens/busca.png" class="btn"> -->
+        </form>
+    </div><!--search-box-->
+    <div class="menu-bar">
+      <ul>
+        <li><a href="CARRINHO DE COMPRAS/carrinho.php"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+        <li><a href="ADM/admin">Admin</a></li>
+      </ul>  
+    </div><!--menu-bar-->
+  </div><!--top-nav-bar-->
+ 
+  <section class="new-products">
+   <div class="container">
+      <div class="title-box">
+        <h2>NintendoSwitch</h2>   
+      </div><!--title-box-->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="product-top">
+            <a href="./nintendo/nintendoView.php?id=30"><img src="imagens/Mario e Sonic Olynpic Games(usado) Portateis Nintendo.png"></a>
+              <div class="overlay-right">
+            
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Mario e sonic(usado) </h3>
+              <h5>R$49,90</h5>
+          </div><!--product-bottom-->
+        </div><!--col-md-3-->
+      
+        <div class="col-md-3">
+          <div class="product-top">
+            <a href="./nintendo/nintendoView.php?id=31"><img src="imagens/Pokemon(usado) Nintendo Switch.png"></a>
+              <div class="overlay-right">
+              
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Pokemon(usado)</h3>
+              <h5>R$200,90</h5>
+          </div><!--product-bottom-->
+        </div><!--col-md-3-->
+          
+       <div class="col-md-3">
+          <div class="product-top">
+            <a href="./nintendo/nintendoView.php?id=32"><img src="imagens/MarioKart Deluxe Nintendo Switch.png"></a>
+              <div class="overlay-right">
+              
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>MarioKart Deluxe</h3>
+              <h5>R$33,99</h5>
+          </div><!--product-bottom-->
+        </div>   <!--col-md-3--> 
+            
+        <div class="col-md-3">
+            <div class="product-top">
+              <a href="./nintendo/nintendoView.php?id=33"><img src="imagens/CTR Crash Nintendo Switch.png"></a>
+                <div class="overlay-right">
+                
+                </div>
+            </div><!--produict-top-->
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+                <h3>CTR Crash</h3>
+                <h5>R$46,50</h5>
+            </div><!--product-bottom-->
+          </div><!--col-md-3-->
+
+
+        <div class="col-md-3">
+          <div class="product-top">
+            <a href="./nintendo/nintendoView.php?id=34"><img src="imagens/Donk Kong Nintendo Switch.png"></a>
+              <div class="overlay-right">
+            
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Donk Kong</h3>
+              <h5>R$83,50</h5>
+          </div><!--product-bottom-->
+        </div><!--col-md-3-->
+      
+        <div class="col-md-3">
+          <div class="product-top">
+          <a href="./nintendo/nintendoView.php?id=35"><img src="imagens/Minecraft(usado) Nintendo Switch.png"></a>
+              <div class="overlay-right">
+              
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Minecraft(usado)</h3>
+              <h5>R$44,90</h5>
+          </div><!--product-bottom-->
+        </div><!--col-md-3-->
+          
+      <div class="col-md-3">
+        <div class="product-top">
+          <a href="./nintendo/nintendoView.php?id=36"><img src="imagens/MegaMan Nintendo Switch.png"></a>
+            <div class="overlay-right">
+        
+            </div>
+        </div><!--produict-top-->
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+            <h3>MegaMan</h3>
+            <h5>R$95,90</h5>
+        </div><!--product-bottom-->
+      </div>   <!--col-md-3--> 
+            
+      <div class="col-md-3">
+          <div class="product-top">
+            <a href="./nintendo/nintendoView.php?id=37"><img src="imagens/Kirb Nintendo Switch.png"></a>
+              <div class="overlay-right">
+        
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Kirb</h3>
+              <h5>R$89,90</h5>
+          </div><!--product-bottom-->
+      </div>   <!--col-md-3--> 
+
+      <div class="col-md-3">
+          <div class="product-top">
+            <a href="./nintendo/nintendoView.php?id=38"><img src="imagens/Sonic Mania Nintendo Switch.png"></a>
+              <div class="overlay-right">
+              
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Sonic Mania </h3>
+              <h5>R$39,90</h5>
+          </div><!--product-bottom-->
+      </div> <!--col-md-3--> 
+
+      <div class="col-md-3">
+        <div class="product-top">
+          <a href="./nintendo/nintendoView.php?id=39"><img src="imagens/CRASH(usado) Nintendo Switch.png"></a>
+            <div class="overlay-right">
+          
+            </div>
+        </div><!--produict-top-->
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+            <h3>CRASH(usado) </h3>
+            <h5>R$77,90</h5>
+        </div><!--product-bottom-->
+      </div><!--col-md-3--> 
+
+
+      <div class="col-md-3">
+          <div class="product-top">
+            <a href="./nintendo/nintendoView.php?id=40"><img src="imagens/Lego Marvel Super Heroes Nintendo Switch.jpg"></a>
+              <div class="overlay-right">
+            
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Lego Marvel Super Heroes</h3>
+              <h5>R$33,90</h5>
+          </div><!--product-bottom-->
+      </div><!--col-md-3--> 
+
+
+      <div class="col-md-3">
+          <div class="product-top">
+            <a href="./nintendo/nintendoView.php?id=41"><img src="imagens/Kart Race(usado).png"></a>
+              <div class="overlay-right">
+          
+              </div>
+          </div><!--produict-top-->
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+              <h3>Kart Race(usado) </h3>
+              <h5>R$29,90</h5>
+          </div><!--product-bottom-->
+      </div>   <!--col-md-3-->            
+</div> <!--container-->
+</section><!--new-products-->
+    
+  <!-------------------Footer---------------->
+<section class="footer">
+  <div class="container text-center">
+      <div class="row">
+      <div class="col-md-3">
+      <h1>Links Úteis</h1>
+      <a href="PoliticaPriva.html" target="_blank"><p>Política de privacidade e segurança</p></a>
+     <a href="termosUso.html" target="_blank"><p>Termos de uso</p></a>
+      <a href="termosDev.html" target="_blank"><p>Termos de devolução</p></a>
+      <a href="quemSomos.html" target="_blank"><p>Quem Somos</p></a>
+  </div>
+   <div class="col-md-3">
+      <h1>Companhia </h1>
+     <a href="contate.html" target="_blank"><p>Contate-nos</p></a>
+     <a href="carreira.html" target="_blank"><p>Carreira</p></a>
+      <a href="afiliado.html" target="_blank"><p>Filiação</p></a>
+  </div>
+  <div class="col-md-3">
+      <h1>Redes Sociais </h1>
+     <p style="font-size: 17px;"><a href=""><img src="./imagens/iconfinder fa.png"></a>Facebook</p>
+     <p style="font-size: 17px;"><a href="https://api.whatsapp.com/send?phone=55551999374464&text=Entre%20em%20contato"><img src="./imagens/whatssap.png"></a>Whatssap</p>
+     <p style="font-size: 17px;"><a href="https://www.instagram.com/8bits_company/?hl=pt-br"><img src="./imagens/iconfinder.png"></a>Instagram</p>
+  </div>
+  <div class="col-md-3 footer-image">
+      <h1>Download App </h1>
+      <img src="imagens/">
+  </div>
+  </div>
+  </div>
+  </section>
+      
+      <script type="text/javascript">
+          function openmenu()
+          {
+              document.getElementById("side-menu").style.display="block";
+              document.getElementById("menu-btn").style.display="none";
+              document.getElementById("close-btn").style.display="block";
+          }
+          function closemenu()
+          {
+              document.getElementById("side-menu").style.display="none";
+              document.getElementById("menu-btn").style.display="block";
+              document.getElementById("close-btn").style.display="none";
+          }
+       
+       </script>
+</body>
+</html>

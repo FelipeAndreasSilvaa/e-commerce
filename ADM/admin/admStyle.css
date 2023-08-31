@@ -1,0 +1,18 @@
+
+button
+{
+    background-color: orangered; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: center;
+    cursor: pointer;
+    border-radius:30px;  
+    height: 380px;
+    width: 420px;
+	margin:10px auto 0px auto;
+}
